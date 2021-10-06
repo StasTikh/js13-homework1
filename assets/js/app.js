@@ -46,7 +46,7 @@ function taxCalc(){
         totalIncome = income - totalRate;
         rateField.innerHTML = `Your rate is: ${totalRate.toFixed(2)}`;
         finalRateField.innerHTML = `Your clear income is: ${totalIncome.toFixed(2)}`;
-     } else if(approximat >= 40526 && approximat <= 86375) {
+     } else if(approximat > 40526 && approximat <= 86375) {
         rate1 =  9950 * firstGroupTax; //995
         rate2 = 30574 * secondGroupTax; //3669
         rate3 = ((approximat - 9951) - 30574) * thirdGroupTax;
@@ -54,7 +54,7 @@ function taxCalc(){
         totalIncome = income - totalRate;
         rateField.innerHTML = `Your rate is: ${totalRate.toFixed(2)}`;
         finalRateField.innerHTML = `Your clear income is: ${totalIncome.toFixed(2)}`;
-     }  else if(approximat >= 86376 && approximat <= 164925){
+     }  else if(approximat > 86376 && approximat <= 164925){
         rate1 =  9950 * firstGroupTax; //995
         rate2 = 30574 * secondGroupTax; //3669
         rate3 = 45849 * thirdGroupTax; //10086,78
@@ -63,7 +63,7 @@ function taxCalc(){
         totalIncome = income - totalRate;       
         rateField.innerHTML = `Your rate is: ${totalRate.toFixed(2)}`;
         finalRateField.innerHTML = `Your clear income is: ${totalIncome.toFixed(2)}`;
-     } else if(approximat >= 164926 && approximat <= 209425){
+     } else if(approximat > 164926 && approximat <= 209425){
         rate1 =  9950 * firstGroupTax; //995
         rate2 = 30574 * secondGroupTax; //3669
         rate3 = 45849 * thirdGroupTax; //10086,78
@@ -73,7 +73,7 @@ function taxCalc(){
         totalIncome = income - totalRate;
         rateField.innerHTML = `Your rate is: ${totalRate.toFixed(2)}`;
         finalRateField.innerHTML = `Your clear income is: ${totalIncome.toFixed(2)}`;
-     }  else if(approximat >= 209426 && approximat <= 523600){
+     }  else if(approximat > 209426 && approximat <= 523600){
         rate1 =  9950 * firstGroupTax; //995
         rate2 = 30574 * secondGroupTax; //3669
         rate3 = 45849 * thirdGroupTax; //10086,78
@@ -84,7 +84,7 @@ function taxCalc(){
         totalIncome = income - totalRate;
         rateField.innerHTML = `Your rate is: ${totalRate.toFixed(2)}`;
         finalRateField.innerHTML = `Your clear income is: ${totalIncome.toFixed(2)}`;     
-     }  else if(approximat >= 523601){
+     }  else if(approximat > 523601){
         rate1 =  9950 * firstGroupTax; //995
         rate2 = 30574 * secondGroupTax; //3669
         rate3 = 45849 * thirdGroupTax; //10086,78
